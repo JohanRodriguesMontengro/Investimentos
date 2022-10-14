@@ -1,0 +1,69 @@
+// Colors
+@import "../colors/colors.scss";
+
+body {
+  background-image: url("/imgs/background/Background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .link-offCanvas {
+    font-family: "Roboto";
+    font-size: 20px;
+    text-decoration: none;
+    color: $Black;
+  }.link-offCanvas:hover {
+    transition: .5s;
+    color: $ColorNegativa;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+  positivo {
+    color: $ColorPositiva;
+  }
+  negativo {
+    color: $ColorNegativa;
+  }
+
+    .border-style {
+      border: 1px solid $Black;
+  }
+  .container00 {
+    margin-left: 175px;
+  }
+  .container02 {
+    .img-allert {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  #button-styles {
+    margin-left: 600px;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+  #button-styles:hover {
+    transition: 2700ms;
+    -webkit-transition: 2700ms;
+    -moz-transition: 2700ms;
+    -ms-transition: 2700ms;
+    -o-transition: 2700ms;
+    border-top-left-radius: 1195px;
+    border-bottom-right-radius: 1195px;
+  }
+
+  .header {
+    color: $White;
+  }
+
+  .icon-hand-header {
+    height: 100px;
+    margin-left: 375px;
+  }
+}

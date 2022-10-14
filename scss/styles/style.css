@@ -1,0 +1,61 @@
+body {
+  background-image: url("/imgs/background/Background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .link-offCanvas {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+body .link-offCanvas:hover {
+  transition: 0.5s;
+  color: red;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+body positivo {
+  color: lightgreen;
+}
+body negativo {
+  color: red;
+}
+body .border-style {
+  border: 1px solid black;
+}
+body .container00 {
+  margin-left: 175px;
+}
+body .container02 .img-allert {
+  height: 30px;
+  width: 30px;
+}
+body #button-styles {
+  margin-left: 600px;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+body #button-styles:hover {
+  transition: 2700ms;
+  -webkit-transition: 2700ms;
+  -moz-transition: 2700ms;
+  -ms-transition: 2700ms;
+  -o-transition: 2700ms;
+  border-top-left-radius: 1195px;
+  border-bottom-right-radius: 1195px;
+}
+body .header {
+  color: white;
+}
+body .icon-hand-header {
+  height: 100px;
+  margin-left: 375px;
+}
